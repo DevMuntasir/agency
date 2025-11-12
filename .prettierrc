@@ -1,0 +1,7 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindStylesheet": "./src/input.css",
+  "printWidth": 80,
+  "htmlWhitespaceSensitivity": "ignore",
+  "singleAttributePerLine": false
+}

@@ -1,0 +1,898 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency- Home</title>
+    <link href="./output.css" rel="stylesheet" />
+    <!-- Font Awesome  -->
+    <link rel="stylesheet" href="./FontAwesome/css/all.min.css" />
+  </head>
+
+  <body id="home" class="font-robo text-[#000000] antialiased">
+    <main class="relative overflow-hidden">
+      <!-- Background Rectangular Shape -->
+      <div
+        class="absolute -top-[370px] -right-[250px] -z-10 h-[932px] w-[1000px] rotate-132 rounded-[120px] bg-[#BBDEFB] opacity-20"
+      ></div>
+      <div
+        class="absolute -top-[410px] -right-[290px] -z-20 h-[1008px] w-[1040px] rotate-132 rounded-[120px] bg-[#B2EBF2] opacity-20"
+      ></div>
+
+      <!-- Header Section -->
+      <header class="fixed inset-x-0 top-0 z-50 h-[100px] p-2">
+        <nav
+          class="container mx-auto flex h-full max-w-[1290px] items-center justify-between rounded-2xl bg-white/70 px-5 shadow-sm backdrop-blur-md transition-shadow md:py-14 xl:py-10"
+        >
+          <div class="flex items-center justify-between gap-16">
+            <!-- Branding -->
+            <a
+              href="#home"
+              class="flex flex-col items-center justify-between sm:flex-row sm:gap-[8.35px]"
+            >
+              <img
+                src="./Images/Logo.png"
+                alt="Logo"
+                class="w-[35px] sm:w-[45px]"
+              />
+              <span
+                class="text-[18px] font-medium text-[#000000DE] sm:text-[24px]"
+              >
+                Agency
+              </span>
+            </a>
+
+            <!-- Menu Items -->
+            <ul class="hidden md:flex md:items-center md:gap-10">
+              <li>
+                <a
+                  class="after:content:'' relative text-[18px] leading-[100%] font-medium capitalize after:absolute after:-bottom-1 after:left-0 after:h-[3px] after:w-[50%] after:bg-[#2196F3] hover:text-[#2196F3] hover:after:w-full hover:after:transition-all hover:after:delay-150 hover:after:duration-300"
+                  href="#"
+                >
+                  Services
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="after:content:'' relative text-[18px] leading-[100%] font-medium capitalize after:absolute after:-bottom-1 after:left-0 after:h-[3px] after:w-0 after:bg-[#2196F3] hover:text-[#2196F3] hover:after:w-full hover:after:transition-all hover:after:delay-150 hover:after:duration-300"
+                  href="#"
+                >
+                  our values
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="after:content:'' relative text-[18px] leading-[100%] font-medium capitalize after:absolute after:-bottom-1 after:left-0 after:h-[3px] after:w-0 after:bg-[#2196F3] hover:text-[#2196F3] hover:after:w-full hover:after:transition-all hover:after:delay-150 hover:after:duration-300"
+                  href="#"
+                >
+                  case studies
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="after:content:'' relative text-[18px] leading-[100%] font-medium capitalize after:absolute after:-bottom-1 after:left-0 after:h-[3px] after:w-0 after:bg-[#2196F3] hover:text-[#2196F3] hover:after:w-full hover:after:transition-all hover:after:delay-150 hover:after:duration-300"
+                  href="#"
+                >
+                  blog
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="after:content:'' relative text-[18px] leading-[100%] font-medium capitalize after:absolute after:-bottom-1 after:left-0 after:h-[3px] after:w-0 after:bg-[#2196F3] hover:text-[#2196F3] hover:after:w-full hover:after:transition-all hover:after:delay-150 hover:after:duration-300"
+                  href="#"
+                >
+                  inner pages
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Login/Signup -->
+          <div
+            class="after:content:'' relative flex flex-row items-center justify-center gap-2 after:absolute after:right-[60px] after:hidden after:h-[25px] after:w-0.5 after:bg-[#979797] md:flex-col xl:flex-row xl:gap-8 xl:after:block"
+          >
+            <a
+              class="cursor-pointer rounded-lg border px-6 py-2 text-[12px] leading-[100%] font-medium text-[#302F2F] uppercase transition-all duration-300 hover:-translate-y-0.5 hover:text-[#2196F3] sm:px-8 sm:py-2 sm:text-[15px] sm:font-semibold xl:border-0 xl:p-0"
+            >
+              login
+            </a>
+            <a
+              class="cursor-pointer rounded-lg bg-[#2196F3] px-3 py-2 text-[12px] leading-[100%] font-medium text-[#FFFFFF] uppercase transition-all duration-300 hover:scale-[1.05] hover:bg-[#1976D2] sm:px-5 sm:py-2.5 sm:text-[15px] sm:font-semibold xl:mr-10"
+            >
+              register
+            </a>
+            <a
+              class="hidden hover:animate-[spin_2s_linear_.4] xl:block"
+              href="#"
+            >
+              <img
+                src="./Images/android-settings.png"
+                alt="setting icon"
+                width="29px"
+                height="29px"
+              />
+            </a>
+            <!-- Menu Bars -->
+            <div class="md:hidden">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="container mx-auto mt-[130px] max-w-[1290px] px-2.5">
+        <div class="flex flex-col-reverse items-center md:flex-row">
+          <!-- Hero Text -->
+          <div
+            class="flex max-w-max flex-[1_1_0%] flex-col xs:max-w-[600px] md:gap-6"
+          >
+            <!-- Hero Text Title -->
+            <h1
+              class="md: md:text-4x1 mt-8 text-2xl font-bold md:mt-0 lg:text-5xl lg:leading-16"
+            >
+              Aenean Facilisis Vitae
+            </h1>
+
+            <!-- Hero Text Paragraph -->
+            <p
+              class="py-3 text-[18px] leading-7 font-normal text-[#000000DE]/87 md:text-2xl md:leading-7 md:font-normal"
+            >
+              Lorem ipsum dolor sit amet consectetur adipiscing Integer id orci
+              sed ante tincidunt
+            </p>
+
+            <!-- Hero Text BTN -->
+            <div
+              class="flex h-10 w-[130px] cursor-pointer items-center justify-center gap-1.5 rounded-lg border border-[#00BCD4] transition-all duration-300 hover:bg-[#00BCD4]/10 hover:shadow-md hover:shadow-[#00BCD4]/30 sm:h-[50px] sm:w-[211px] sm:gap-2"
+            >
+              <a
+                class="text-[14px] font-medium text-[#00BCD4] capitalize sm:text-[16px]"
+                href="#"
+              >
+                write to us
+              </a>
+              <img
+                src="./Images/Shape.png"
+                alt="shape"
+                class="h-[14.9px] w-[13.9px] sm:h-[18.9px] sm:w-[15.9px]"
+              />
+            </div>
+          </div>
+
+          <!-- Hero Image -->
+          <div class="max-w-max flex-[1_1_0%] xs:max-w-[600px] lg:ml-16">
+            <img src="./Images/Banner1.png" alt="Banner Img" class="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Business Category -->
+      <section class="mx-auto my-20 max-w-[1058px] p-2">
+        <div
+          class="flex flex-col items-center justify-between gap-8 sm:flex-row sm:gap-0"
+        >
+          <!-- Business Category- 01 -->
+          <div
+            class="after:content:'' relative cursor-pointer after:absolute after:-bottom-3 after:left-0 after:h-1.5 after:w-[50%] after:rounded-full after:bg-[#2196F3] hover:delay-150 hover:after:w-full hover:after:transition-all hover:after:duration-300"
+          >
+            <h1 class="text-[36px] leading-[42px] font-medium text-[#2196F3]">
+              Business Solution
+            </h1>
+            <div
+              class="content:'' absolute top-1 -right-[15px] h-[63px] w-px bg-[#0000001F]"
+            ></div>
+            <p class="text-[18px] leading-6 font-normal text-[#000000DE]/87">
+              Interdum et malesuada fames ac ante…
+            </p>
+          </div>
+
+          <!-- Business Category- 02 -->
+          <div
+            class="after:content:'' relative cursor-pointer after:absolute after:-bottom-3 after:left-0 after:h-1.5 after:w-0 after:rounded-full after:bg-[#2196F3] hover:delay-150 hover:after:w-full hover:after:transition-all hover:after:duration-300"
+          >
+            <h1 class="text-[36px] leading-[42px] font-medium text-[#2196F3]">
+              Free project quote
+            </h1>
+            <div
+              class="content:'' absolute top-1 -right-3 h-[63px] w-px bg-[#0000001F]"
+            ></div>
+            <p class="text-[18px] leading-6 font-normal text-[#000000DE]/87">
+              Interdum et malesuada fames ac ante…
+            </p>
+          </div>
+
+          <!-- Business Category- 03 -->
+          <div
+            class="after:content:'' relative cursor-pointer after:absolute after:-bottom-3 after:left-0 after:h-1.5 after:w-0 after:rounded-full after:bg-[#2196F3] hover:delay-150 hover:after:w-full hover:after:transition-all hover:after:duration-300"
+          >
+            <h1 class="text-[36px] leading-[42px] font-medium text-[#2196F3]">
+              Nulla lobortis nunc
+            </h1>
+            <p class="text-[18px] leading-6 font-normal text-[#000000DE]/87">
+              Interdum et malesuada fames ac ante…
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Business Count -->
+      <section class="container mx-auto mb-10 max-w-[1440px]">
+        <div
+          class="flex flex-col items-center justify-between gap-2 md:flex-row"
+        >
+          <!-- Count Image -->
+          <div class="max-w-[400px] flex-[1_1_0%] p-2.5 lg:max-w-max">
+            <img src="./Images/Artwork.png" alt="Art work" class="" />
+          </div>
+
+          <!-- Count Text -->
+          <div class="flex-[1_1_0%] p-2.5 xl:pl-36">
+            <div>
+              <h1
+                class="text-center text-[18px] font-bold text-[#000000DE]/87 lg:text-left lg:text-[25px] xl:text-[28px]"
+              >
+                Nulla lobortis nunc vitae purus facilisis
+              </h1>
+              <p
+                class="max-w-[590px] py-5 text-center text-[18px] leading-6 font-normal text-[#000000DE]/87 lg:py-8 lg:text-left lg:leading-8"
+              >
+                Vestibulum sit amet tortor libero lobortis semper at et odio. In
+                eu tellus tellus. Pellentesque ullamcorper ultrices. Aenean
+                facilisis vitae purus facilisis semper.
+              </p>
+            </div>
+            <div class="grid max-w-[590px] grid-cols-3">
+              <div class="flex flex-col items-center gap-2.5 xl:gap-5">
+                <span
+                  class="text-xl font-bold text-[#000000DE]/87 lg:text-3xl xl:text-[48px]"
+                >
+                  +200
+                </span>
+                <div
+                  class="h-2 w-[65px] rounded-[18.5px] bg-[#2196F3] lg:h-2 lg:w-[70px] xl:h-[11.5px] xl:w-[68.5px] xl:rounded-[18.5px]"
+                ></div>
+                <span
+                  class="text-[16px] font-medium text-[#000000DE]/87 uppercase xs:text-[20px] xl:text-2xl"
+                >
+                  Employee
+                </span>
+              </div>
+              <div class="flex flex-col items-center gap-2.5 xl:gap-5">
+                <span
+                  class="text-xl font-bold text-[#000000DE]/87 lg:text-3xl xl:text-[48px]"
+                >
+                  +500
+                </span>
+                <div
+                  class="h-2 w-[65px] rounded-[18.5px] bg-[#2196F3] lg:h-2 lg:w-[70px] xl:h-[11.5px] xl:w-[68.5px] xl:rounded-[18.5px]"
+                ></div>
+                <span
+                  class="text-[16px] font-medium text-[#000000DE]/87 uppercase xs:text-[20px] xl:text-2xl"
+                >
+                  Projects
+                </span>
+              </div>
+              <div class="flex flex-col items-center gap-2.5 xl:gap-5">
+                <span
+                  class="text-xl font-bold text-[#000000DE]/87 lg:text-3xl xl:text-[48px]"
+                >
+                  +300
+                </span>
+                <div
+                  class="h-2 w-[65px] rounded-[18.5px] bg-[#2196F3] lg:h-2 lg:w-[70px] xl:h-[11.5px] xl:w-[68.5px] xl:rounded-[18.5px]"
+                ></div>
+                <span
+                  class="text-[16px] font-medium text-[#000000DE]/87 uppercase xs:text-[20px] xl:text-2xl"
+                >
+                  Clients
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="w-full">
+        <img
+          src="./Images/Our Services.jpg"
+          alt="services"
+          class="h-auto w-full max-w-[1716px]"
+        />
+      </section>
+
+      <!-- Business Value -->
+      <section class="container mx-auto mb-32 max-w-[1440px]">
+        <div
+          class="flex flex-col items-center justify-between gap-2 lg:flex-row"
+        >
+          <!-- Count Image -->
+          <div class="max-w-[400px] flex-[1_1_0%] p-2.5 lg:max-w-max">
+            <img
+              src="./Images/Illustration & Title.png"
+              alt="Art work"
+              class=""
+            />
+          </div>
+
+          <!-- Count Text -->
+          <div class="flex-[1_1_0%] p-2.5">
+            <div>
+              <h1
+                class="text-left text-[18px] font-semibold text-[#000000DE]/87 lg:text-[25px] xl:text-[28px]"
+              >
+                Nulla lobortis nunc vitae nisi semper velit
+              </h1>
+              <p
+                class="max-w-[590px] py-5 text-left text-[18px] leading-6 font-normal text-[#000000DE]/87 lg:pt-4 lg:pb-8 lg:leading-8"
+              >
+                Vestibulum sit amet tortor libero lobortis semper at et odio. In
+                eu tellus tellus. Pellentesque ullamcorper ultrices. Aenean
+                facilisis vitae purus facilisis semper.
+              </p>
+            </div>
+            <div
+              class="mt-5 grid max-w-[590px] grid-cols-1 gap-9 md:grid-cols-2"
+            >
+              <div class="flex flex-col items-center gap-1.5 lg:items-start">
+                <div
+                  class="flex h-[34px] w-[34px] -rotate-45 items-center justify-center rounded-md bg-[#BBDEFB]"
+                >
+                  <i
+                    class="fa-regular fa-circle-check rotate-45 text-[18px] text-[#2196F3]"
+                  ></i>
+                </div>
+                <h1
+                  class="py-1.5 text-[28px] leading-[42px] font-medium text-[#000000DE]"
+                >
+                  Nulla lobortis nunc
+                </h1>
+                <p
+                  class="max-w-[285px] text-[16px] leading-6 font-normal text-[#000000DE]"
+                >
+                  Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                </p>
+              </div>
+              <div class="flex flex-col items-center gap-1.5 lg:items-start">
+                <div
+                  class="flex h-[34px] w-[34px] -rotate-45 items-center justify-center rounded-md bg-[#B2EBF2]"
+                >
+                  <i
+                    class="fa-solid fa-crosshairs rotate-45 text-[18px] text-[#00BCD4]"
+                  ></i>
+                </div>
+                <h1
+                  class="py-1.5 text-[28px] leading-[42px] font-medium text-[#000000DE]"
+                >
+                  Vestibulum faucibus
+                </h1>
+                <p
+                  class="max-w-[285px] text-[16px] leading-6 font-normal text-[#000000DE]"
+                >
+                  In id nisi id neque venenatis molestie Quisque lacinia purus
+                  ut libero facilisis.
+                </p>
+              </div>
+              <div class="flex flex-col items-center gap-1.5 lg:items-start">
+                <div
+                  class="flex h-[34px] w-[34px] -rotate-45 items-center justify-center rounded-md bg-[#EDE7F6]"
+                >
+                  <i
+                    class="fa-solid fa-gauge-high rotate-45 text-[18px] text-[#651fff]"
+                  ></i>
+                </div>
+                <h1
+                  class="py-1.5 text-[28px] leading-[42px] font-medium text-[#000000DE]"
+                >
+                  Suspendisse porttitor
+                </h1>
+                <p
+                  class="max-w-[285px] text-[16px] leading-6 font-normal text-[#000000DE]"
+                >
+                  unc quis sem quis velit tincidunt congue a sit amet ante.
+                </p>
+              </div>
+              <div class="flex flex-col items-center gap-1.5 lg:items-start">
+                <div
+                  class="flex h-[34px] w-[34px] -rotate-45 items-center justify-center rounded-md bg-[#FBEABB]"
+                >
+                  <i
+                    class="fa-regular fa-circle-check rotate-45 text-[18px] text-[#F38D21]"
+                  ></i>
+                </div>
+                <h1
+                  class="py-1.5 text-[28px] leading-[42px] font-medium text-[#000000DE]"
+                >
+                  Ut sed eros
+                </h1>
+                <p
+                  class="max-w-[285px] text-[16px] leading-6 font-normal text-[#000000DE]"
+                >
+                  In hac habitasse platea dictumst. In mi nulla, fringilla
+                  vestibulum finibus et.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonial section -->
+      <section class="w-full">
+        <img
+          src="./Images/1e951c74a4c533bd5a8672929ee204f1d4b6334e.png"
+          alt="services"
+          class="h-auto w-full max-w-[1580px]"
+        />
+      </section>
+
+      <!-- Shape section -->
+      <section class="mx-auto max-w-[886px] pb-12 lg:-mt-10">
+        <div
+          class="grid grid-cols-3 place-items-center content-center gap-5 md:grid-cols-6"
+        >
+          <div>
+            <img src="./Images/Object - 1.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/Object - 1.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/Object - 1.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/Object - 1.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/Object - 1.png" alt="" />
+          </div>
+          <div>
+            <img src="./Images/Object - 1.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Case Studies Section -->
+      <section class="container mx-auto my-20 max-w-[1189px] px-10 lg:px-0">
+        <div class="grid grid-cols-[1fr_3fr] gap-5 lg:gap-5">
+          <!-- Left column -->
+          <div class="max-w-full">
+            <h1
+              class="pb-5 text-[30px] font-bold text-[#0D47A1] lg:text-[52px] lg:leading-[78px]"
+            >
+              Case Studies
+            </h1>
+
+            <ul class="flex flex-col gap-9">
+              <li class="rounded-lg bg-[#BBDEFB] transition-all duration-300">
+                <a class="py-2 text-[24px] leading-9 font-normal" href="#">
+                  Corporate
+                </a>
+              </li>
+
+              <li
+                class="rounded-lg transition-all duration-300 hover:bg-[#BBDEFB]"
+              >
+                <a class="py-2 text-[24px] leading-9 font-normal" href="#">
+                  Advertising
+                </a>
+              </li>
+
+              <li
+                class="rounded-lg transition-all duration-300 hover:bg-[#BBDEFB]"
+              >
+                <a class="py-2 text-[24px] leading-9 font-normal" href="#">
+                  Marketing
+                </a>
+              </li>
+
+              <li
+                class="rounded-lg transition-all duration-300 hover:bg-[#BBDEFB]"
+              >
+                <a class="py-2 text-[24px] leading-9 font-normal" href="#">
+                  Government
+                </a>
+              </li>
+
+              <li
+                class="rounded-lg transition-all duration-300 hover:bg-[#BBDEFB]"
+              >
+                <a class="py-2 text-[24px] leading-9 font-normal" href="#">
+                  Creative
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right column (cards grid) -->
+          <div
+            class="grid max-w-full min-w-[250px] auto-rows-[150px] grid-cols-1 gap-y-2.5 lg:grid-cols-[minmax(450px,1fr)_1fr] lg:gap-x-5 lg:gap-y-7"
+          >
+            <div
+              class="relative row-span-2 h-full w-full cursor-pointer overflow-hidden rounded-4xl"
+            >
+              <img
+                src="./Images/Library.jpg"
+                alt=""
+                class="h-full min-w-full object-cover"
+              />
+              <div class="absolute inset-0 bg-blue-300/20"></div>
+              <div
+                class="absolute bottom-0 w-full bg-black/50 text-center transition-all delay-150 duration-300 hover:scale-105"
+              >
+                <h1
+                  class="py-.5 text-[28px] leading-[42px] font-medium text-white"
+                >
+                  Vestibulum faucibus
+                </h1>
+                <p
+                  class="pb-2 text-center text-[16px] leading-6 font-normal text-white"
+                >
+                  venenatis molestie Quisque
+                </p>
+              </div>
+            </div>
+            <div
+              class="relative h-full w-full cursor-pointer overflow-hidden rounded-2xl"
+            >
+              <img
+                src="./Images/Laptop.jpg"
+                alt=""
+                class="h-full w-full object-cover"
+              />
+              <div class="absolute inset-0 bg-blue-300/20"></div>
+              <div
+                class="absolute bottom-0 w-full bg-black/50 text-center transition-all delay-150 duration-300 hover:scale-105"
+              >
+                <h1 class="text-[20px] leading-6 font-medium text-white">
+                  Vestibulum faucibus
+                </h1>
+                <p
+                  class="text-center text-[12px] leading-6 font-normal text-white"
+                >
+                  venenatis molestie Quisque
+                </p>
+              </div>
+            </div>
+            <div
+              class="relative h-full w-full cursor-pointer overflow-hidden rounded-2xl"
+            >
+              <img
+                src="./Images/Engr.jpg"
+                alt=""
+                class="h-full w-full object-cover"
+              />
+              <div class="absolute inset-0 bg-blue-300/20"></div>
+              <div
+                class="absolute bottom-0 w-full bg-black/50 text-center transition-all delay-150 duration-300 hover:scale-105"
+              >
+                <h1 class="text-[20px] leading-6 font-medium text-white">
+                  Vestibulum faucibus
+                </h1>
+                <p
+                  class="text-center text-[12px] leading-6 font-normal text-white"
+                >
+                  venenatis molestie Quisque
+                </p>
+              </div>
+            </div>
+            <div
+              class="relative h-full w-full cursor-pointer overflow-hidden rounded-2xl"
+            >
+              <img
+                src="./Images/Using Phone.jpg"
+                alt=""
+                class="h-full w-full object-cover"
+              />
+              <div class="absolute inset-0 bg-blue-300/20"></div>
+              <div
+                class="absolute bottom-0 w-full bg-black/50 text-center transition-all delay-150 duration-300 hover:scale-105"
+              >
+                <h1 class="text-[20px] leading-6 font-medium text-white">
+                  Vestibulum faucibus
+                </h1>
+                <p
+                  class="text-center text-[12px] leading-6 font-normal text-white"
+                >
+                  venenatis molestie Quisque
+                </p>
+              </div>
+            </div>
+            <div
+              class="relative h-full w-full cursor-pointer overflow-hidden rounded-2xl"
+            >
+              <img
+                src="./Images/Keyboard.jpg"
+                alt=""
+                class="h-full w-full object-cover"
+              />
+              <div class="absolute inset-0 bg-blue-300/20"></div>
+              <div
+                class="absolute bottom-0 w-full bg-black/50 text-center transition-all delay-150 duration-300 hover:scale-105"
+              >
+                <h1 class="text-[20px] leading-6 font-medium text-white">
+                  Vestibulum faucibus
+                </h1>
+                <p
+                  class="text-center text-[12px] leading-6 font-normal text-white"
+                >
+                  venenatis molestie Quisque
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Ready Message Section -->
+      <section class="mx-auto max-w-[1215px] px-2.5">
+        <div
+          class="flex h-[168.21px] w-full flex-col items-center justify-center gap-2.5 rounded-3xl bg-[#2196F3] md:flex-row md:justify-between md:px-20"
+        >
+          <div>
+            <h1
+              class="pb-3 text-center text-[24px] leading-[100%] font-bold text-white md:text-left md:text-[36px]"
+            >
+              Ready to get started ?
+            </h1>
+            <p
+              class="text-center text-[16px] leading-tight font-normal text-white md:text-left md:text-[24px] md:leading-[100%]"
+            >
+              Pellentesque ac bibendum tortor. Nulla eget lobortis lacus.
+            </p>
+          </div>
+          <div>
+            <div
+              class="flex cursor-pointer items-center justify-center gap-2 rounded-lg border border-[#00BCD4] bg-white px-6 py-2 md:px-6 md:py-4"
+            >
+              <a
+                class="text-[16px] font-normal text-[#2196F3] md:leading-[100%]"
+                href="#"
+              >
+                Write to us
+              </a>
+              <img
+                src="./Images/Shape.png"
+                alt="shape"
+                width="15.9px"
+                height="18.9px"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mx-auto mt-20 w-full max-w-[1391px] px-4 sm:px-6 lg:px-8">
+        <div
+          class="rounded-2xl border border-black/5 bg-white/70 backdrop-blur-sm"
+        >
+          <!-- content -->
+          <div
+            class="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] items-start gap-10 p-6 sm:p-8 lg:p-10"
+          >
+            <!-- Brand / About -->
+            <div class="sm:col-span-2 lg:col-span-2">
+              <a href="#" class="inline-flex items-center gap-2.5">
+                <img
+                  src="./Images/Logo.png"
+                  alt="Agency Logo"
+                  class="h-[45px] w-[45px]"
+                />
+                <span
+                  class="text-[22px] leading-none font-semibold tracking-tight text-neutral-900 sm:text-[24px]"
+                >
+                  Agency
+                </span>
+              </a>
+
+              <p
+                class="mt-5 max-w-prose text-sm leading-6 text-neutral-600 sm:text-base"
+              >
+                Nam posuere accumsan porta. Integer id orci sed ante tincidunt
+                tincidunt sit amet sed libero.
+              </p>
+
+              <p class="mt-4 text-sm text-neutral-500">© Skyrev Theme 2020</p>
+            </div>
+
+            <!-- Company -->
+            <div>
+              <h2
+                class="pb-4 text-[16px] font-bold tracking-wide text-[#0D47A1] uppercase sm:pb-6 sm:text-[18px]"
+              >
+                Company
+              </h2>
+              <ul class="space-y-3 text-sm sm:space-y-4 sm:text-base">
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Donec dignissim
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Curabitur egestas
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Nam posuere
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Aenean facilisis
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Services -->
+            <div>
+              <h2
+                class="pb-4 text-[16px] font-bold tracking-wide text-[#0D47A1] uppercase sm:pb-6 sm:text-[18px]"
+              >
+                Services
+              </h2>
+              <ul class="space-y-3 text-sm sm:space-y-4 sm:text-base">
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Cras convallis
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Vestibulum faucibus
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Quisque lacinia purus
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Aliquam nec ex
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Resources -->
+            <div class="min-w-[200px]">
+              <h2
+                class="pb-4 text-[16px] font-bold tracking-wide text-[#0D47A1] uppercase sm:pb-6 sm:text-[18px]"
+              >
+                Resources
+              </h2>
+              <ul class="space-y-3 text-sm sm:space-y-4 sm:text-base">
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Suspendisse porttitor
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Nam posuere
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="text-neutral-700 hover:text-[#0D47A1] hover:underline"
+                    href="#"
+                  >
+                    Curabitur egestas
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Social + Language -->
+            <div class="sm:col-span-2 lg:col-span-1">
+              <ul class="flex flex-wrap gap-3 sm:gap-4">
+                <li
+                  class="flex h-9 w-9 items-center justify-center rounded-full bg-black/10"
+                >
+                  <a href="#" aria-label="Facebook">
+                    <i
+                      class="fa-brands fa-facebook-f text-xl text-[#2196F3]"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  class="flex h-9 w-9 items-center justify-center rounded-full bg-black/10"
+                >
+                  <a href="#" aria-label="LinkedIn">
+                    <i
+                      class="fa-brands fa-linkedin text-[18px] text-[#2196F3]"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  class="flex h-9 w-9 items-center justify-center rounded-full bg-black/10"
+                >
+                  <a href="#" aria-label="Twitter / X">
+                    <i
+                      class="fa-brands fa-x-twitter text-[18px] text-[#2196F3]"
+                    ></i>
+                  </a>
+                </li>
+                <li
+                  class="flex h-9 w-9 items-center justify-center rounded-full bg-black/10"
+                >
+                  <a href="#" aria-label="Instagram">
+                    <i
+                      class="fa-solid fa-camera-retro text-[18px] text-[#2196F3]"
+                    ></i>
+                  </a>
+                </li>
+              </ul>
+
+              <label for="language" class="sr-only">Language</label>
+              <select
+                id="language"
+                name="language"
+                class="mt-5 h-10 w-full rounded-md border border-[#2196F3] bg-white px-3 text-sm sm:w-[260px] sm:text-base"
+              >
+                <option value="English">🌐 English — EN</option>
+                <option value="Bangla">🌐 Bangla — BN</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- subtle divider -->
+          <div class="border-t border-black/5"></div>
+
+          <!-- bottom bar (optional extra) -->
+          <div
+            class="flex flex-col items-center justify-between gap-4 px-6 py-4 sm:flex-row sm:px-8 lg:px-10"
+          >
+            <p class="text-sm text-neutral-500">Built with Tailwind CSS</p>
+            <div class="text-sm text-neutral-500">
+              <a href="#" class="hover:underline">Privacy</a>
+              <span class="mx-2">•</span>
+              <a href="#" class="hover:underline">Terms</a>
+              <span class="mx-2">•</span>
+              <a href="#" class="hover:underline">Contact</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
